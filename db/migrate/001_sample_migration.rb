@@ -1,8 +1,11 @@
-class CreateTask < ActiveRecord::Migration
+class SampleMigration < ActiveRecord::Migration
+
   def self.up
 
   end
+  
   def self.down
 
   end
+  
 end
