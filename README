@@ -1,0 +1,34 @@
+
+Want to run active record migrations without Rails?
+
+We'll me too Daddy, meeee too.
+
+You are in the right place.  This project creates a stub.  
+
+I suggest you use RVM.
+
+Here's what's in my rvm gems dir:
+
+  drwxrwsr-x  3 bweinraub rvm 4096 Apr 21 06:52 activemodel-3.0.7
+  drwxrwsr-x  4 bweinraub rvm 4096 Apr 21 06:52 activerecord-3.0.7
+  drwxrwsr-x  3 bweinraub rvm 4096 Apr 21 06:52 activesupport-3.0.7
+  drwxrwsr-x  4 bweinraub rvm 4096 Apr 21 06:52 arel-2.0.9
+  drwxrwsr-x  6 bweinraub rvm 4096 Apr 21 06:52 builder-2.1.2
+  drwxrwsr-x  5 bweinraub rvm 4096 Apr 21 06:52 i18n-0.5.0
+  drwxrwsr-x  6 bweinraub rvm 4096 Apr 21 12:03 log4r-1.1.9
+  drwxrwsr-x  6 bweinraub rvm 4096 Apr 21 12:09 pg-0.11.0
+  drwxrwsr-x  4 bweinraub rvm 4096 Apr 21 06:52 tzinfo-0.3.26
+
+Which basically means I install
+
+activerecord
+log4r
+pg
+
+to get this working.
+
+Use RVM!
+
+Cheers,
+Bret
+bret AT aura DASH software DOT com

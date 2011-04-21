@@ -1,0 +1,8 @@
+
+# just like a rails database.yml
+development:
+  # adapter: postgresql
+  # database: 
+  # username: 
+  # host: localhost
+ #  password: 
