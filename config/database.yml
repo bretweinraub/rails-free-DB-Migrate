@@ -1,8 +1,13 @@
-
-# just like a rails database.yml
+# Just like a Rails database.yml
 development:
-  # adapter: postgresql
+  # adapter: postgresql or mysql
   # database: 
   # username: 
+  # password: 
   # host: localhost
- #  password: 
+
+
+  # adapter: sqlite3
+  # database: db/development.sqlite3
+  # pool: 5
+  # timeout: 5000
