@@ -4,14 +4,13 @@ require 'active_record'
 require 'log4r'
 include Log4r
 
-ProjectRoot = File.expand_path(File.join(File.dirname(__FILE__),'..'))
-ConfigRoot = File.dirname(__FILE__)
+PROJECT_ROOT = File.expand_path(File.join(File.dirname(__FILE__), ".."))
+CONFIG_ROOT = File.dirname(__FILE__)
 
-DatabaseConfig = YAML::load(File.open("#{ConfigRoot}/database.yml"))
-
-RAILS_ENV=ENV['RAILS_ENV'] || "development"
-
-ActiveRecord::Base.establish_connection(DatabaseConfig[RAILS_ENV])
+DB_CONFIG = YAML::load(File.open("#{CONFIG_ROOT}/database.yml"))
+ENVIRONMENT = ENV["RAILS_ENV"] || "development"
+ActiveRecord::Base.establish_connection(DB_CONFIG[ENVIRONMENT])
 
 require 'config/load_plugins'
+
 
