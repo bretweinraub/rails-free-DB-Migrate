@@ -6,7 +6,6 @@ development:
   # password: 
   # host: localhost
 
-
   # adapter: sqlite3
   # database: db/development.sqlite3
   # pool: 5
